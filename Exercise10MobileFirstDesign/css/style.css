@@ -6,21 +6,29 @@ body {
     
 /* style for company logo - including the fixed positioning */
 header img {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     display: block;
-    float: left;
+    /* float: left; */
     height: 3em;
-    z-index: 500;
+    /* z-index: 500; */
+    
+
+}
+
+header{
+    background-color: #005BAB;
 }
 
 /* style for nav element - including the fixed positioning */
 nav {
-    background-color: #005BAB;
     width: 60%;
-    padding: 0 20%;
-    position: fixed;
+    /* padding: 0 20%; */
+    /* position: fixed; */
+    margin-left: auto;
+    margin-right: auto;
+
     top: 0;
     left: 0;
     z-index: 499;
@@ -36,12 +44,22 @@ nav ul {
 nav li {
     display: inline;
     margin: 2%;
+
+    
+    
 }
 
 nav a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+
+    color: #005BAB;
+    display: block;
+    background-color: white;
+    padding: 1em;
+    font-weight: bold;
+
 }
 
 nav a:hover {
@@ -70,6 +88,7 @@ header h1 {
     background-size: cover; 
     padding: 4em 1em; 
     color: white;
+
 }
 
 .keyboard {
@@ -99,14 +118,7 @@ main {
 }
 
 /*2x2 grid of equals*/
-main > article.grid {
-    background-color: #f1f1f1;
-    float: left;
-    margin: 1%;
-    width: 48%;
-    height: 300px;
-    overflow-y: scroll;
-}
+
 
 /*styles for team profiles*/
 .profilePics {

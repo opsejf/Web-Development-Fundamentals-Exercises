@@ -1,0 +1,47 @@
+@media screen and (min-width:768px){
+    nav li{
+        display: inline-block;
+        width: 45%;
+    }
+}
+
+/* nav li{
+    display: inline-block;
+    width: 45%;
+} */
+
+@media screen and (min-width:1026px){
+    nav li{
+        width: auto;
+        padding: 0;
+    }
+    
+    nav{
+        float: right;
+        width: 70%;
+        margin-top: 0;        
+        padding-top: 0;
+    }
+
+    header img{
+        display: inline-block;
+        max-width: 30%;
+    }
+
+    header{
+        height: 100%;
+    }
+
+    h1{
+        clear: both;
+    }
+
+    main > article.grid {
+        background-color: #f1f1f1;
+        float: left;
+        margin: 1%;
+        width: 48%;
+        height: 300px;
+        overflow-y: scroll;
+    }
+}
