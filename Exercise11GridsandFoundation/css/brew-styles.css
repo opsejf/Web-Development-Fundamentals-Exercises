@@ -20,6 +20,17 @@
     letter-spacing: 0.1em;
     margin-bottom: 0.37em;
     margin-top: 0.37em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(146, 131, 48, 0.4);
+    -webkit-text-fill-color: rgba(255,255,255,0.7);
+}
+
+.callout{
+    background-color: rgba(146, 131, 48, 0.69);
+}
+
+.card{
+    
 }
 
 .central-bg {
