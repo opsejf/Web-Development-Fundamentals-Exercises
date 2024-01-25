@@ -1,0 +1,147 @@
+body {
+    font-family: Verdana, sans-serif;   
+    height: 100%;
+    margin: 0;
+    }
+    
+/* style for company logo - including the fixed positioning */
+header img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    float: left;
+    height: 3em;
+    z-index: 500;
+}
+
+/* style for nav element - including the fixed positioning */
+nav {
+    background-color: #005BAB;
+    width: 60%;
+    padding: 0 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 499;
+}
+
+nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 2%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*form styles*/
+form ul {
+    list-style: none;
+    padding: 0;
+}
+
+form li {
+    margin: 5px 0;
+}
+
+form label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+/*headline image styles*/
+header h1 {
+    margin-top: 0;
+    background-size: cover; 
+    padding: 4em 1em; 
+    color: white;
+}
+
+.keyboard {
+    background-image: url(../images/keyboard.jpg);
+}
+
+.team {
+    background-image: url(../images/theTeam.jpg);
+}
+
+.trainer {
+    background-image: url(../images/trainer.jpg);
+}
+
+.course {
+    background-image: url(../images/trainingCourses.jpg);
+}
+
+/*hide the h6, it's here for the outline only*/
+nav > h6 {
+    display: none;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*2x2 grid of equals*/
+main > article.grid {
+    background-color: #f1f1f1;
+    float: left;
+    margin: 1%;
+    width: 48%;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+/*styles for team profiles*/
+.profilePics {
+    -webkit-filter: inherit;
+    filter: inherit;
+    transition: -webkit-filter 1s;
+}
+
+.teamProfiles {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.teamProfiles:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+/*styles for footer*/
+.socialIcons {
+    height: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.2s;
+}
+
+.socialIcons:hover {
+    transform: translateY(-50%) scale(1.2);
+}
+
+footer {
+    height: 3em;
+    text-align: center;
+    background-color: #005BAB;
+    clear: both; /* fix for courses.html where we have numerous floated items */
+}
+

@@ -1,0 +1,19 @@
+﻿<div class="gradient-one">
+        <div class="stripe"></div>
+        <div class="row ">
+            <footer class="large-12">
+                <div class="social">
+                    <h2 class="social">
+                        <a href="#" title="twitter">t</a>
+                        <a href="#" title="pintrest">e</a>
+                        <a href="#" title="G+">h</a>
+                        <a href="#" title="BeBo">b</a>
+                        <a href="#" title="Blogger">B</a>
+                        <a href="#" title="Facebook">f</a>
+                        <a href="#" title="LinkedIn">i</a>
+                    </h2>
+                </div>
+            </footer>
+
+        </div>
+    </div>
